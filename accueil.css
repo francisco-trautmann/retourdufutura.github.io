@@ -1,0 +1,146 @@
+@font-face{
+    font-family: 'Futura-medium';
+    src: url(fonts/futurabt-medium-webfont.woff)format('woff');
+ }
+
+
+@font-face{
+    font-family: 'Ankh';
+    src: url(fonts/AnkhSanctuary-nROx4.woff)format('woff');
+}
+
+body{
+    margin: 0;
+}
+
+header {
+    background: rgb(255, 96, 157);
+}
+
+header p{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-family: 'Ankh';
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: center;
+    height: 104px;
+
+  
+    }
+
+.nav a{
+    text-decoration: none;
+    color:rgb(255, 96, 157);
+    background-color: rgb(255, 171, 203);
+    margin-right: 24px;
+    padding:12px 24px;
+    border-radius: 40px;
+    font-family: 'Ankh';
+    font-size: 40px;
+    text-align: center;
+}
+
+.nav a:hover{
+    color:rgb(255, 171, 203);
+    background-color: rgb(222, 38, 108);
+}
+
+.home{
+    background-color:  rgb(222, 38, 108);
+    height: 460px;
+}
+
+.home .logo{
+    margin-top: 100px;
+    width: 555px;
+    margin: auto auto;
+}
+
+.home .logo path{
+    fill: white;
+}
+
+.home .logo path:hover{
+    fill: rgb(138, 34, 74);
+}
+
+.home p{
+    color:rgb(138, 34, 74);
+    max-width: 20%;
+    margin: auto;
+    text-justify: center;
+    background-color: rgb(255, 96, 157);
+    padding: 24px 24px;
+    border-radius: 70px;
+    font-family: 'Futura-medium';
+    transform: rotate(-2deg);
+}
+
+h1{
+font-size: 40px;
+font-family: 'Futura-medium';
+text-align: center;
+text-decoration: underline;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+.années{
+    font-family: 'Ankh';
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+p{
+    font-family: 'Futura-medium';
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+
+.date{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)
+}
+
+.image{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.image img{
+    width: 250px;
+    margin: auto;
+}
+
+.infos-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.les-infos{
+    max-width: 80%;
+    margin: auto;
+}
+
+
+.home2{
+    background-color:  rgb(222, 38, 108);
+    height: 750px;
+}
+
+.logo2{
+    margin-left: 100px;
+}
+
+.logo3{
+        margin-top: 300px;
+        width: 100px;
+        margin: auto auto;
+}
